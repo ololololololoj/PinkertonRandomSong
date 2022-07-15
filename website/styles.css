@@ -1,0 +1,70 @@
+* {
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    font-size: 250%;
+    color: #F2E0D5;
+    text-shadow: 2px 2px 4px rgba(14, 14, 14, 0.279);
+}
+
+#songname {
+    color: #F2E0D5;
+    font-size: 150%;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+#albumImg {
+    width: 28%;
+    border-radius: 5%;
+    transition: transform 500ms;
+}
+
+.logos {
+    width: 2%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: transform 250ms;
+}
+
+#links {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("mesh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search {
+    background-color: #593027;
+    color: #F2E0D5;
+    border: none;
+    padding: 0.5% 1%;
+    border-radius: 10px;
+    font-size: 100%;
+    margin-bottom: 0.8%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: transform 500ms ease-in-out;
+}
+
+.logos:hover {
+    transform: scale(1.1);
+}
+
+#albumImg:hover {
+    transform: scale(1.05);
+
+}
+
+#search:hover {
+    transform: scale(1.05);
+}
